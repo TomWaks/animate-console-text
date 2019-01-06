@@ -19,7 +19,7 @@ int main()
 	imie Imie;//reprezentuje moje imie
 	int t;
 	char c = 0;//char do zczytywania imienia z pliku
-	strcpy(Imie.imie , "Tomasz Waksmundzki");
+	strcpy(Imie.imie , "xyz abcdefgh");
 	Imie.dlugosc = 18;
 	initscr();//inicjalizacja ncurses
 	if (has_colors() == TRUE)
